@@ -81,10 +81,12 @@ public class App {
                 e.getCause() != null && e.getCause() instanceof TopicExistsException
             ) {
                 System.out.println("input-topic already exists.");
+                return;
             } else {
                 throw e;
             }
         }
+        System.out.println("Created input-topic");
     }
 }
 
