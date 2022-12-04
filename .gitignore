@@ -1,0 +1,11 @@
+# Ignore binary and build stuff
+.gradle
+app/build
+app/bin/
+
+
+# Emacs-related stuff
+*\#
+*~
+
+.vscode/
